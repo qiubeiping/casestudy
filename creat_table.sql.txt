@@ -1,0 +1,17 @@
+CREATE TABLE `peopleinfo` (
+  `firstname` varchar(30) DEFAULT NULL,
+  `middlename` varchar(30) DEFAULT NULL,
+  `lastname` varchar(30) NOT NULL,
+  `addrbusiness` varchar(200) DEFAULT NULL,
+  `city` varchar(50) DEFAULT NULL,
+  `state` varchar(20) DEFAULT NULL
+);
+
+INSERT INTO `nodejsmapdb`.`peopleinfo` 
+(`firstname`,`middlename`,`lastname`,`addrbusiness`,`city`,`state`) VALUES
+('Donald','C','Delisi','19785 Village Office Court','Bend','OR');
+
+
+INSERT INTO `nodejsmapdb`.`peopleinfo` 
+(`firstname`,`middlename`,`lastname`,`addrbusiness`,`city`,`state`) VALUES
+('Arthur','','Pancioli','8075 Muchmore Point Lance','Cincinnati','OH');
